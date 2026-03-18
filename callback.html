@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html><body>
+<h1>Auth Code:</h1>
+<script>
+    const params = new URLSearchParams(window.location.search);
+    document.write('<pre>code: ' + params.get('code') + '</pre>');
+    document.write('<pre>state: ' + params.get('state') + '</pre>');
+</script>
+</body></html>
